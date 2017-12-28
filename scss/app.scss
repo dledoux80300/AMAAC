@@ -35,8 +35,7 @@ a {
   height: 66px;
   line-height: 66px;
   color: #FFF;
-  // background-color: $header-bg;
-  background-image: url("../images/FondFoirFtOrange.png");
+  background-image: url("../images/header2.png");
   border-bottom: 4px solid $header-bg;
   background-repeat: repeat;
   background-position: left;
@@ -44,16 +43,13 @@ a {
 
 .header__logo {
   font-weight: bold;
-  padding: 0 25px;
+  padding: 10px 10px;
   float: left;
 }
 
 /* MENU */
 .menu {
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-around;
-  float: left;
+	float: left;
 
   a {
     padding: 0 10px;
@@ -64,4 +60,3 @@ a {
   }
 }
 @import "responsive";
-@import "footer";
