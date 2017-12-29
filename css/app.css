@@ -176,3 +176,9 @@ a {
     border-color: rgba(0, 0, 0, 0.6);
   }
 }
+/* CSS Document */
+/* line 2, ../scss/footer.scss */
+footer {
+  background-color: black;
+  color: white;
+}
