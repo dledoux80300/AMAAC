@@ -150,7 +150,7 @@ a {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
   }
-  /* line 68, ../scss/responsive.scss */
+  /* line 66, ../scss/responsive.scss */
   .menu a {
     display: block;
     height: 40px;
@@ -158,19 +158,19 @@ a {
     line-height: 40px;
     border-bottom: 1px solid #d35400;
   }
-  /* line 76, ../scss/responsive.scss */
+  /* line 74, ../scss/responsive.scss */
   .menu a:hover {
     color: #ba4a00;
   }
 
-  /* line 82, ../scss/responsive.scss */
+  /* line 80, ../scss/responsive.scss */
   .with--sidebar .site-pusher {
-    -moz-transform: translateX(250px);
-    -ms-transform: translateX(250px);
-    -webkit-transform: translateX(250px);
-    transform: translateX(250px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
   }
-  /* line 86, ../scss/responsive.scss */
+  /* line 84, ../scss/responsive.scss */
   .with--sidebar .site-cache {
     position: absolute;
     top: 0;
@@ -185,4 +185,8 @@ a {
 footer {
   background-color: black;
   color: white;
+}
+/* line 6, ../scss/footer.scss */
+footer h1 {
+  text-align: center;
 }
