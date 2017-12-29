@@ -71,15 +71,14 @@
     top: 66px;
     bottom: 0;
     background-color: #000;
-    border-top: 4px solid #d35400;
     border-right: 4px solid #d35400;
-    width: 250px;
+    width: 200px;
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
   }
-  /* line 68, ../scss/responsive.scss */
+  /* line 66, ../scss/responsive.scss */
   .menu a {
     display: block;
     height: 40px;
@@ -87,19 +86,19 @@
     line-height: 40px;
     border-bottom: 1px solid #d35400;
   }
-  /* line 76, ../scss/responsive.scss */
+  /* line 74, ../scss/responsive.scss */
   .menu a:hover {
     color: #ba4a00;
   }
 
-  /* line 82, ../scss/responsive.scss */
+  /* line 80, ../scss/responsive.scss */
   .with--sidebar .site-pusher {
-    -moz-transform: translateX(250px);
-    -ms-transform: translateX(250px);
-    -webkit-transform: translateX(250px);
-    transform: translateX(250px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
   }
-  /* line 86, ../scss/responsive.scss */
+  /* line 84, ../scss/responsive.scss */
   .with--sidebar .site-cache {
     position: absolute;
     top: 0;

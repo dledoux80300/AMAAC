@@ -18,8 +18,12 @@ a {
   color: inherit;
 }
 
+.container-fluid {
+	padding: 0px;
+}
+
 .container {
-  margin: 0 20px;
+  margin: 0px;
   @include clearfix;
 }
 
@@ -35,7 +39,7 @@ a {
   height: 66px;
   line-height: 66px;
   color: #FFF;
-  background-image: url("../images/header2.png");
+  background-image: url("../images/header.png");
   border-bottom: 4px solid $header-bg;
   background-repeat: repeat;
   background-position: left;
@@ -43,7 +47,7 @@ a {
 
 .header__logo {
   font-weight: bold;
-  padding: 10px 10px;
+  padding: 0px 10px;
   float: left;
 }
 
@@ -60,3 +64,4 @@ a {
   }
 }
 @import "responsive";
+@import "footer";

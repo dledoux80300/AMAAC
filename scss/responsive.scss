@@ -1,6 +1,6 @@
 @import "compass";
 $header-bg: #d35400;
-$menu-width: 250px!default;
+$menu-width: 200px!default;
 @media only screen and (max-width: 750px) {
   .site-container,
   .site-pusher {
@@ -59,10 +59,8 @@ $menu-width: 250px!default;
     top: 66px;
     bottom: 0;
     background-color: #000;
-    border-top: 4px solid $header-bg;
     border-right: 4px solid $header-bg;
     width: $menu-width;
-    //@include transform(translateX($menu-width * -1));
     @include transition-duration(0.3s);
 
     a {
