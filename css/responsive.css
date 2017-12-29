@@ -2,7 +2,7 @@
   /* line 5, ../scss/responsive.scss */
   .site-container,
   .site-pusher {
-    height: 100%;
+    height: auto;
   }
 
   /* line 10, ../scss/responsive.scss */
