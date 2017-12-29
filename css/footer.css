@@ -4,3 +4,8 @@ footer {
   background-color: black;
   color: white;
 }
+
+/* line 8, ../scss/footer.scss */
+.apropos h1 {
+  text-align: center;
+}

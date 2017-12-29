@@ -18,8 +18,12 @@ a {
   color: inherit;
 }
 
+.container-fluid {
+	padding: 0px;
+}
+
 .container {
-  margin: 0 20px;
+  margin: 0px;
   @include clearfix;
 }
 
@@ -43,7 +47,7 @@ a {
 
 .header__logo {
   font-weight: bold;
-  padding: 10px 10px;
+  padding: 0px 10px;
   float: left;
 }
 
