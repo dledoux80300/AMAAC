@@ -3,8 +3,14 @@
 footer {
   background-color: black;
   color: white;
+  text-align: justify;
 }
-/* line 5, ../scss/footer.scss */
+/* line 6, ../scss/footer.scss */
 footer h1 {
+  text-align: center;
+}
+/* line 9, ../scss/footer.scss */
+footer ul {
+  list-style-type: none;
   text-align: center;
 }

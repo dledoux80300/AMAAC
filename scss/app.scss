@@ -61,8 +61,10 @@ a {
   }
 
   a:hover {
-    color: darken(#FFF,50);
+//    color: darken(#FFF,50);
+	color: darken($header-bg,5);
   }
 }
 @import "responsive";
-@import "footer";
+@import "footer"
+	

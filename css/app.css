@@ -68,7 +68,7 @@ a {
 }
 /* line 63, ../scss/app.scss */
 .menu a:hover {
-  color: gray;
+  color: #ba4a00;
 }
 
 @media only screen and (max-width: 750px) {
@@ -186,8 +186,14 @@ a {
 footer {
   background-color: black;
   color: white;
+  text-align: justify;
 }
-/* line 5, ../scss/footer.scss */
+/* line 6, ../scss/footer.scss */
 footer h1 {
+  text-align: center;
+}
+/* line 9, ../scss/footer.scss */
+footer ul {
+  list-style-type: none;
   text-align: center;
 }

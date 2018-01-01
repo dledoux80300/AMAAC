@@ -2,7 +2,12 @@
 footer {
 	background-color: black;
 	color:white;
+	text-align: justify;
 	h1 {
+		text-align: center;
+	}
+	ul{
+		list-style-type: none;
 		text-align: center;
 	}
 }
