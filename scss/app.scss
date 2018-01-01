@@ -54,17 +54,15 @@ a {
 
 /* MENU */
 .menu {
-	float: left;
+	float: right;
 
   a {
     padding: 0 10px;
   }
 
   a:hover {
-//    color: darken(#FFF,50);
 	color: darken($header-bg,5);
   }
 }
 @import "responsive";
 @import "footer"
-	

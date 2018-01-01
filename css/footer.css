@@ -1,16 +1,123 @@
-/* CSS Document */
-/* line 2, ../scss/footer.scss */
-footer {
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/* VARIABLE */
+/* line 5, ../scss/footer.scss */
+.myfooter {
   background-color: black;
   color: white;
   text-align: justify;
 }
-/* line 6, ../scss/footer.scss */
-footer h1 {
-  text-align: center;
-}
 /* line 9, ../scss/footer.scss */
-footer ul {
+.myfooter h1 {
+  text-align: center;
+  border-left: solid;
+  border-color: #d35400;
+}
+/* line 14, ../scss/footer.scss */
+.myfooter ul {
   list-style-type: none;
   text-align: center;
+}
+/* line 18, ../scss/footer.scss */
+.myfooter .social-icon {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 21, ../scss/footer.scss */
+.myfooter .social-icon a {
+  display: inline-block;
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+}
+/* line 29, ../scss/footer.scss */
+.myfooter .acount-icon a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+}
+/* line 36, ../scss/footer.scss */
+.myfooter .acount-icon .fa {
+  margin-right: 25px;
+}
+/* line 40, ../scss/footer.scss */
+.myfooter ul.social {
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+/* line 44, ../scss/footer.scss */
+.myfooter ul.social li {
+  display: inline;
+  margin: 0 5px;
+}
+/* line 50, ../scss/footer.scss */
+.myfooter .social li:hover {
+  transform: scale(1.15) rotate(360deg);
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+}
+/* line 57, ../scss/footer.scss */
+.myfooter .social a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+/* line 59, ../scss/footer.scss */
+.myfooter .social a.icoFacebook:hover i {
+  color: #fff;
+}
+/* line 63, ../scss/footer.scss */
+.myfooter .social a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+/* line 65, ../scss/footer.scss */
+.myfooter .social a.icoTwitter:hover i {
+  color: #fff;
+}
+/* line 72, ../scss/footer.scss */
+.myfooter .social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+/* line 84, ../scss/footer.scss */
+.myfooter .social-circle li a:hover i {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 96, ../scss/footer.scss */
+.myfooter .social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+/* line 102, ../scss/footer.scss */
+.myfooter .social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+/* line 113, ../scss/footer.scss */
+a.myfooter .socialIcon:hover {
+  color: #44BCDD;
 }

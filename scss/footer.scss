@@ -1,13 +1,115 @@
-/* CSS Document */
-footer {
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/* VARIABLE */
+$header-bg: #d35400;
+
+.myfooter {
 	background-color: black;
 	color:white;
 	text-align: justify;
 	h1 {
 		text-align: center;
+		border-left: solid;
+		border-color: $header-bg;
 	}
 	ul{
 		list-style-type: none;
 		text-align: center;
 	}
+	.social-icon{
+		padding:0px;
+		margin:0px;
+		a{
+			display:inline-block;
+			color:#fff;
+			font-size:25px;
+			padding:5px;
+		}
+	}
+	.acount-icon { 
+		a{
+			display:block;
+			color:#fff;
+			font-size:18px;
+			padding:5px;
+			text-decoration:none;
+		}
+		.fa{
+			margin-right:25px;
+		}
+	}
+	ul.social {
+		display: inline;
+		margin-left:0 !important;
+		padding: 0;
+		li {
+			display: inline;
+			margin: 0 5px;
+		}
+	}
+	.social {
+		li:hover {
+			transform: scale(1.15) rotate(360deg);
+			-webkit-transform: scale(1.1) rotate(360deg);
+			-moz-transform: scale(1.1) rotate(360deg);
+			-ms-transform: scale(1.1) rotate(360deg);
+			-o-transform: scale(1.1) rotate(360deg);
+		}
+		a.icoFacebook:hover {
+			background-color:#3B5998;
+			i {
+				color:#fff;
+			}
+		}
+		a.icoTwitter:hover {
+			background-color:#33ccff;
+			i {
+				color:#fff;
+			}
+		}
+	}
+	.social-circle {
+		li {
+			a {
+				display:inline-block;
+				position:relative;
+				margin:0 auto 0 auto;
+				-moz-border-radius:50%;
+				-webkit-border-radius:50%;
+				border-radius:50%;
+				text-align:center;
+				width: 50px;
+				height: 50px;
+				font-size:20px;
+			}
+			a:hover i {
+				-moz-transform: rotate(360deg);
+				-webkit-transform: rotate(360deg);
+				-ms--transform: rotate(360deg);
+				transform: rotate(360deg);
+				-webkit-transition: all 0.2s;
+				-moz-transition: all 0.2s;
+				-o-transition: all 0.2s;
+				-ms-transition: all 0.2s;
+				transition: all 0.2s;
+			}
+
+			i {
+				margin:0;
+				line-height:50px;
+				text-align: center;
+			}
+		}
+		i {
+			color: #fff;
+			-webkit-transition: all 0.8s;
+			-moz-transition: all 0.8s;
+			-o-transition: all 0.8s;
+			-ms-transition: all 0.8s;
+			transition: all 0.8s;
+		}
+	}
+}
+
+a.myfooter .socialIcon:hover {
+	color:#44BCDD;
 }
